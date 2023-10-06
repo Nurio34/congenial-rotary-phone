@@ -311,6 +311,20 @@ body#home header nav.menu .wrapper .menuList {
   z-index: -1;
   opacity: 0;
   transition: 0.4s;
+  background-color: var(--clr5);
+  box-shadow: var(--box-shadow-1);
+  padding: var(--padding-1);
+  padding-inline-start: 0.4rem;
+  border-radius: var(--border-radius-1);
+}
+body#home header nav.menu .wrapper .menuList li {
+  list-style-type: circle;
+  color: var(--clr1);
+  list-style-position: inside;
+}
+body#home header nav.menu .wrapper .menuList li a {
+  color: var(--clr1);
+  margin-inline-start: -0.6rem;
 }
 body#home header nav.menu .wrapper .menuList.visible {
   z-index: 0;

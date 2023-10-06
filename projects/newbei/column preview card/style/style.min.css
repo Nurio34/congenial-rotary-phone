@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Big Shoulders Display", cursive;
+  overflow-y: auto;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0deg, 0%, 95%);
+}
+body main {
+  display: grid;
+  grid-template-columns: repeat(3, 20vw);
+  grid-template-rows: 50vh;
+  border-radius: 1rem;
+}
+body main .container {
+  margin: 4vh 3vw 2.6vh 3vw;
+}
+body main .container h1 {
+  margin: 3vh 0 2.2vh 0;
+  color: hsl(0deg, 0%, 95%);
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+body main .container p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  line-height: 2.7vh;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  height: 111.64px;
+}
+body main .container a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  background: hsl(0deg, 0%, 95%);
+  padding: 1.3vh 1.6vw;
+  border-radius: 100vw;
+  margin-top: 7vh;
+}
+body main .container a:hover {
+  background-color: inherit;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+}
+body .card1 {
+  background: hsl(31deg, 77%, 52%);
+}
+body .card1 a {
+  color: hsl(31deg, 77%, 52%);
+}
+body .card2 {
+  background: hsl(184deg, 100%, 22%);
+}
+body .card2 a {
+  color: hsl(184deg, 100%, 22%);
+}
+body .card3 {
+  background: hsl(179deg, 100%, 13%);
+}
+body .card3 a {
+  color: hsl(179deg, 100%, 13%);
+}
+
+@media (max-width: 375px) {
+  body {
+    min-height: 100vh;
+    display: block;
+    background: hsl(0deg, 0%, 95%);
+  }
+  body main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60vh;
+    margin: 7vh 5vw;
+  }
+  body main .container {
+    margin: 4vh 3vw 2.6vh 12vw;
+  }
+  body main .container h1 {
+    margin: 3vh 0 4vh 0;
+    color: hsl(0deg, 0%, 95%);
+    font-size: 2.2rem;
+    font-weight: 400;
+  }
+  body main .container p {
+    color: hsla(0deg, 0%, 100%, 0.75);
+    line-height: 3.4vh;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 111.64px;
+    margin-right: 18vw;
+    overflow: hidden;
+  }
+  body main .container p br {
+    display: none;
+  }
+  body main .container a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background: hsl(0deg, 0%, 95%);
+    padding: 2vh 8vw;
+    border-radius: 100vw;
+    margin-top: 7vh;
+  }
+  body main .container a:hover {
+    background-color: inherit;
+    color: hsla(0deg, 0%, 100%, 0.75);
+    border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+  }
+  body .card1 {
+    background: hsl(31deg, 77%, 52%);
+  }
+  body .card1 a {
+    color: hsl(31deg, 77%, 52%);
+  }
+  body .card2 {
+    background: hsl(184deg, 100%, 22%);
+  }
+  body .card2 a {
+    color: hsl(184deg, 100%, 22%);
+  }
+  body .card3 {
+    background: hsl(179deg, 100%, 13%);
+  }
+  body .card3 a {
+    color: hsl(179deg, 100%, 13%);
+  }
+}/*# sourceMappingURL=style.min.css.map */
