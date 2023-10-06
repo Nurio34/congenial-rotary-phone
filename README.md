@@ -1,2 +1,1 @@
-# congenial-rotary-phone
-Frontend Mentor projects
+# Frontend Mentor projects
